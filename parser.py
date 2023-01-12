@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from pprint import pprint
 from typing import Literal
 
 from pydantic import BaseModel, Field, HttpUrl
@@ -122,5 +123,6 @@ class JsonConverter:
             raise InfoAboutFileError("Файл ещё не создан, запустите функцию start_converting().")
 
 
-ctr = JsonConverter()
-ctr.start_converting()
+convert = JsonConverter()
+convert.start_converting()
+pprint(convert.show_new_json())
