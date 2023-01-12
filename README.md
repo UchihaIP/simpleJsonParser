@@ -33,6 +33,7 @@
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pydantic](https://img.shields.io/badge/Pydantic-%23FA0F00.svg?style=for-the-badge&logo=Pydantic&logoColor=white)
 ![Pytest](https://img.shields.io/badge/pytest-12100E?style=for-the-badge&logo=pytest&logoColor=white)
 
 ## Author
